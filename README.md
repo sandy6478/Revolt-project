@@ -213,3 +213,13 @@ URL : http://LBR/context-path/
 # We are done with our Setup #
 	
 ## Step - 13: After your practise, delete Cluster and other resources we have used in AWS Cloud to avoid billing ##
+ Docker Project
+ install Docker to the server
+ Give permission to the User
+ ---- sudo usermod -aG docker $USER && newgrp docker
+
+ BUild the image
+ ---- docker build -t image1fordev .
+
+ Run the container
+ --- docker run -it d -p 8080:8080 imagedevcontainer:latest
