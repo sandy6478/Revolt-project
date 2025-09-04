@@ -223,3 +223,6 @@ URL : http://LBR/context-path/
 
  Run the container
  --- docker run -it d -p 8080:8080 imagedevcontainer:latest
+
+ Push to Dockerhub
+ --- docker push sandeepbubu6478/image1fordev:latest
